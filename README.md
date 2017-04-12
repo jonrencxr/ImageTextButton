@@ -8,6 +8,7 @@ ImageTextButton是继承于UIButton的按钮，包含图片和文字，有多种
 
 ##### 使用方法
 使用很简单，直接查看demo。
+    
     self.imgTextButton = [[ImageTextButton alloc] initWithFrame:CGRectMake((self.view.frame.size.width - 150) / 2, 200, 150, 100)
                                                           image:[UIImage imageNamed:@"buttonImg.png"]
                                                           title:@"点我"];
