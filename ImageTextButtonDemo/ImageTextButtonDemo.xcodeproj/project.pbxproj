@@ -16,7 +16,7 @@
 		2E192B451C337EFF00E5871D /* ImageTextButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E192B441C337EFF00E5871D /* ImageTextButtonDemoTests.m */; };
 		2E192B511C337F8200E5871D /* buttonImg_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E192B4F1C337F8200E5871D /* buttonImg_1@2x.png */; };
 		2E192B521C337F8200E5871D /* buttonImg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E192B501C337F8200E5871D /* buttonImg@2x.png */; };
-		D71AECF61E9E11E400A2239E /* ImageTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D71AECF51E9E11E400A2239E /* ImageTextButton.m */; };
+		D71AED021E9E246900A2239E /* ImageTextButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D71AED011E9E246900A2239E /* ImageTextButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +45,8 @@
 		2E192B461C337EFF00E5871D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E192B4F1C337F8200E5871D /* buttonImg_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonImg_1@2x.png"; sourceTree = "<group>"; };
 		2E192B501C337F8200E5871D /* buttonImg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonImg@2x.png"; sourceTree = "<group>"; };
-		D71AECF41E9E11E400A2239E /* ImageTextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTextButton.h; sourceTree = "<group>"; };
-		D71AECF51E9E11E400A2239E /* ImageTextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTextButton.m; sourceTree = "<group>"; };
+		D71AED001E9E246900A2239E /* ImageTextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTextButton.h; sourceTree = "<group>"; };
+		D71AED011E9E246900A2239E /* ImageTextButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTextButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 		2E192B1E1C337EFF00E5871D = {
 			isa = PBXGroup;
 			children = (
-				D71AECF31E9E11E400A2239E /* ImageTextButton */,
+				D71AECFF1E9E246900A2239E /* ImageTextButton */,
 				2E192B291C337EFF00E5871D /* ImageTextButtonDemo */,
 				2E192B431C337EFF00E5871D /* ImageTextButtonDemoTests */,
 				2E192B281C337EFF00E5871D /* Products */,
@@ -129,11 +129,11 @@
 			name = images;
 			sourceTree = "<group>";
 		};
-		D71AECF31E9E11E400A2239E /* ImageTextButton */ = {
+		D71AECFF1E9E246900A2239E /* ImageTextButton */ = {
 			isa = PBXGroup;
 			children = (
-				D71AECF41E9E11E400A2239E /* ImageTextButton.h */,
-				D71AECF51E9E11E400A2239E /* ImageTextButton.m */,
+				D71AED001E9E246900A2239E /* ImageTextButton.h */,
+				D71AED011E9E246900A2239E /* ImageTextButton.m */,
 			);
 			path = ImageTextButton;
 			sourceTree = "<group>";
@@ -240,7 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D71AECF61E9E11E400A2239E /* ImageTextButton.m in Sources */,
+				D71AED021E9E246900A2239E /* ImageTextButton.m in Sources */,
 				2E192B321C337EFF00E5871D /* ViewController.m in Sources */,
 				2E192B2F1C337EFF00E5871D /* AppDelegate.m in Sources */,
 				2E192B2C1C337EFF00E5871D /* main.m in Sources */,
